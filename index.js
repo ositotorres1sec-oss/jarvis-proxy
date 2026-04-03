@@ -18,8 +18,8 @@ app.post("/jarvis", async (req, res) => {
         });
         res.json({ response: completion.choices[0].message.content });
     } catch (error) {
-        res.status(500).json({ error: "Error en el servidor de JARVIS" });
+        res.status(500).json({ error: "Error en el servidor de AVATGP125" });
     }
 });
 
-app.listen(port, () => console.log(`JARVIS activo`));
+app.listen(port, () => console.log(`AVATGP125 activo`));
